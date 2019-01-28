@@ -1,0 +1,34 @@
+
+
+body{
+
+ background-image: url(../images/code.jpg);
+ background-size:;
+ background-color: #000;
+ background-repeat: no-repeat;
+
+
+}
+
+.wrapper{
+
+  display:grid;
+  grid-template-columns: 100%;
+  margin: 10% 10% 0% 10%;
+
+
+}
+
+
+.wrapper div{}
+
+.conteudo1{
+
+  display:grid;
+  grid-template-columns: 100%;
+
+}
+
+h1{color:#f1f2f6!important; font-size: 58px!important;}
+
+h3{font-size: 42px!important;}
