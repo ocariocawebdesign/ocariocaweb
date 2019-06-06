@@ -1,48 +1,36 @@
-
-
-body{
-
- background-image: url(../images/code.jpg);
- background-size:;
- background-color: #000;
- background-repeat: no-repeat;
-
-
+body {
+  background-image: url(../images/code.jpg);
+  background-size: ;
+  background-color: #000;
+  background-repeat: no-repeat;
 }
 
 /*---------------------------------------*/
-
-header{
-
-  display: grid!important;
-  grid-template-columns: 100%!important;
-  margin-top: 5%!important;
-
-
+header {
+  display: grid !important;
+  grid-template-columns: 100% !important;
+  margin-top: 5% !important;
 }
 
 /*---------------------------------------*/
-
-
-.wrapper{
-
-  display:grid;
+.wrapper {
+  display: grid;
   grid-template-columns: 100%;
   margin: 10% 10% 0% 10%;
-
-
 }
 
+.wrapper div {}
 
-.wrapper div{}
-
-.conteudo1{
-
-  display:grid;
+.conteudo1 {
+  display: grid;
   grid-template-columns: 100%;
-
 }
 
-h1{color:#f1f2f6!important; font-size: 58px!important;}
+h1 {
+  color: #f1f2f6 !important;
+  font-size: 58px !important;
+}
 
-h3{font-size: 42px!important;}
+h3 {
+  font-size: 42px !important;
+}
