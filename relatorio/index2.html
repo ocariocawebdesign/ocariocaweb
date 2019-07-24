@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt_BR" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Dados de reuniões</title>
+
+  <!--Bootstrap 4.3-->
+
+  <link rel="stylesheet" href="css/bootstrap.css">
+
+</head>
+
+<body>
+
+
+
+  <style>
+    p {
+      font-wheigt: bold;
+      color: red;
+      margin-left: 2%;
+    }
+
+    #logo img {
+      margin-left: 2%;
+
+    }
+  </style>
+
+  <div id="logo" class="">
+    <img class="img-fluid" src="imagens/logo.png" alt="">
+
+  </div>
+
+  <div class="">
+    <h3 class="text-center">Relatório mensal de reunioes Grupo</h3>
+  </div>
+
+
+
+  <div class="container">
+
+    <form class="formulario" action="index.html" method="post">
+      <div class="form-group">
+        <label for="">Mês</label>
+        <input type="text" class="form-control form-control-sm" placeholder="Digite o mês do relatório" name="Mes" value="" id="mes_atual">
+      </div>
+
+      <br>
+      <br>
+
+      <div class="form-group">
+        <label for="">Reniões</label>
+        <input type="text" class="form-control form-control-sm" placeholder="Digite o número de reuniões" name="Reuniões" value="" id="total_reunioes">
+      </div>
+
+      <br>
+      <br>
+
+      <div class="form-group">
+        <label for="">Membros</label>
+        <input type="text" class="form-control form-control-sm" placeholder="Digite o número de membros" name="Membros" value="" id="membros">
+      </div>
+
+      <br>
+      <br>
+
+      <div class="form-group">
+        <label for="">Sétima tradição</label>
+        <input type="text" class="form-control form-control-sm" placeholder="Digite o valor total da sétima tradição" name="Sétima tradição" value="" id="setima_tradicao">
+      </div>
+
+      <br>
+      <br>
+
+      <!--label for="">Material vendido</label>
+
+      <input type="number" name="Material" value="" id="material">
+      <br>
+      <br>
+      <label for="">Descrição de material</label>
+
+      <input type="text" name="Descrição de material" value="" id="material_desc">-->
+    </form>
+
+  </div>
+
+  <script>
+    var mes = document.querySelector('input[name=Mes]');
+    var reunioes = document.getElementById('total_reunioes');
+    var total_membros = document.getElementById('membros'); //array = ['Gabriel', 'Antonio', 'Lucas'];
+    var total_setima = document.getElementById('setima_tradicao');
+    //var media_setima;
+    //var material;
+
+    console.log(mes); //console.log(reunioes);
+
+
+    alert(mes);
+    //media_setima = (total_setima + total_reunioes) / total_membros;
+
+
+    //var material_descricao = ['', '', '', '', '']
+
+    //var dias;
+    //var ingressos;
+    //var troca_fichas
+
+
+
+    // Pede que o usuário digite
+    //mes = prompt('Digite o mês do relatório.');
+
+    //total_reunioes = parseInt(prompt('Digite o total de reuniões.'));
+
+    //total_membros = parseInt(prompt('Digite o total de membros.'));
+
+    //total_setima = parseInt(prompt('Digite o total da sétima tradição.'));
+
+    //media_setima = total_setima / total_membros;
+
+    // Mostra ao usuário
+    //document.write("<p>Relatório do mês de:</p> " + mes);
+
+    // Mostra ao usuário
+    //document.write("<p>Total de reuniões</p> " + total_reunioes);
+
+    // Mostra ao usuário
+    //document.write("<p>Total de reuniões</p> " + total_membros);
+
+    // Mostra ao usuário
+    //document.write("<p>Total da sétima tradição</p>" + total_setima);
+
+    // Mostra ao usuário
+    //document.write("<p>Média de sétima tradição por membro é:</p>" + media_setima);
+
+
+
+
+    //var qt_reunioes = getElementById('reunioes');
+    //prompt(qt_reunioes);
+
+    //document.write(qt_reunioes).value;
+
+
+
+    //document.write(total_reunioes);
+    //var reunioes;
+
+    //var total_reunioes = reunioes_Funcao;
+  </script>
+</body>
+
+</html>
