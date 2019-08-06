@@ -1,8 +1,9 @@
 body {
-  background-image: url(../images/code.jpg);
+  /*background-image: url(../images/code.jpg);*/
   background-size: ;
-  background-color: #000;
+  background-color: #dfe4ea !important;
   background-repeat: no-repeat;
+  margin: 0 !important;
 }
 
 /*---------------------------------------*/
@@ -26,6 +27,13 @@ header {
   grid-template-columns: 100%;
 }
 
+#box-conteudo-1 {
+  display: grid;
+  grid-template-columns: 68%;
+  grid-row: auto;
+  color: #333;
+}
+
 h1 {
   color: #f1f2f6 !important;
   font-size: 58px !important;
@@ -33,4 +41,38 @@ h1 {
 
 h3 {
   font-size: 42px !important;
+}
+
+input[type="text"] {
+  border: 1px solid #333 !important;
+  color: #95afc0;
+}
+
+input[type="email"] {
+  border: 1px solid #333 !important;
+  color: #95afc0;
+}
+
+input[type="button"] {
+  border: 1px solid #333 !important;
+  background-color: #95afc0 !important;
+  color: #333 !important
+}
+
+input[type="submit"] {
+  border: 1px solid #333 !important;
+  background-color: #440055 !important;
+  color: #95afc0; !important
+}
+
+input[type="submit"] a :hover {
+  border: 1px solid #333 !important;
+  background-color: #4362A5 !important;
+  color: #FAFAFA !important;
+  padding: 2px !important;
+  font-size: 16px;
+}
+
+input[type="placeholder"] {
+  color: #333 !important
 }

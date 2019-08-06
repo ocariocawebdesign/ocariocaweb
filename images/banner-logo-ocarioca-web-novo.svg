@@ -16,7 +16,10 @@
    version="1.1"
    id="svg8"
    inkscape:version="0.92.4 (33fec40, 2019-01-16)"
-   sodipodi:docname="nova-logo.svg">
+   sodipodi:docname="banner-logo-ocarioca-web-novo.svg"
+   inkscape:export-filename="/home/ocariocaweb/Documentos/GitHub/ocariocaweb/banner-logo-ocarioca-web-novo.png"
+   inkscape:export-xdpi="120"
+   inkscape:export-ydpi="120">
   <defs
      id="defs2" />
   <sodipodi:namedview
@@ -27,7 +30,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.7"
-     inkscape:cx="553.22227"
+     inkscape:cx="220.36513"
      inkscape:cy="524.27884"
      inkscape:document-units="mm"
      inkscape:current-layer="g1079"
@@ -94,7 +97,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
