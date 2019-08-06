@@ -10,7 +10,7 @@ body {
 header {
   display: grid !important;
   grid-template-columns: 100% !important;
-   margin-top: 70% !important;
+  grid-row: auto;
 }
 
 /*---------------------------------------*/
