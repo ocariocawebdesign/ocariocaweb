@@ -76,3 +76,11 @@ input[type="submit"] a :hover {
 input[type="placeholder"] {
   color: #333 !important
 }
+
+.button-job{
+
+  background-color: #440055 !important;
+  color:#FAFAFA!important;
+
+
+}
