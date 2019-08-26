@@ -18,7 +18,7 @@
 	<meta property="og:locale" content="pt_BR">
 	<meta property="og:type" content="website">
 	<meta property="og:url" content="https://ocariocawebdesign.github.io/ocariocaweb/">
-	<meta property="og:title" content="Página de contato O Carioca Web design, html, css, desenvolvimento de sites.">
+	<meta property="og:title" content="O Carioca Web Design">
 	<meta property="og:site_name" content="O Carioca Web Design">
 	<meta property="og:image:type" content="image/png" />
 	<meta property="og:image:width" content="200" />
@@ -198,6 +198,52 @@
 			</form>-->
 
 			<!-- Footer -->
+
+
+			<!--pwabuilder-->
+			<button onclick="install()">
+			  Install
+			</button>
+
+
+			<script type="text/javascript">
+
+
+			let deferredPrompt = null;
+
+window.addEventListener('beforeinstallprompt', (e) => {
+// Prevent Chrome 67 and earlier from automatically showing the prompt
+e.preventDefault();
+// Stash the event so it can be triggered later.
+deferredPrompt = e;
+});
+
+async function install() {
+if (deferredPrompt) {
+ deferredPrompt.prompt();
+ console.log(deferredPrompt)
+ deferredPrompt.userChoice.then(function(choiceResult){
+
+	 if (choiceResult.outcome === 'accepted') {
+	 console.log('Your PWA has been installed');
+ } else {
+	 console.log('User chose to not install your PWA');
+ }
+
+ deferredPrompt = null;
+
+ });
+
+
+}
+}
+
+
+			</script>
+
+			<!--pwabuilder-->
+
+
 		</main>
 
 		<aside class="">
