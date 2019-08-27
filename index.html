@@ -200,55 +200,6 @@
 			<!-- Footer -->
 
 
-<<<<<<< HEAD
-			<!--pwabuildercode -->
-=======
-			<!--pwabuildercode-->
->>>>>>> 8f6a73fb86d38fca95bdad05955a4b87c801b6a5
-			<button onclick="install()">
-			  Install
-			</button>
-
-
-<<<<<<< HEAD
-			<script>
-=======
-			<script type="text/javascript">
->>>>>>> 8f6a73fb86d38fca95bdad05955a4b87c801b6a5
-
-
-			let deferredPrompt = null;
-
-window.addEventListener('beforeinstallprompt', (e) => {
-// Prevent Chrome 67 and earlier from automatically showing the prompt
-e.preventDefault();
-// Stash the event so it can be triggered later.
-deferredPrompt = e;
-});
-
-async function install() {
-if (deferredPrompt) {
- deferredPrompt.prompt();
- console.log(deferredPrompt)
- deferredPrompt.userChoice.then(function(choiceResult){
-
-	 if (choiceResult.outcome === 'accepted') {
-	 console.log('Your PWA has been installed');
- } else {
-	 console.log('User chose to not install your PWA');
- }
-
- deferredPrompt = null;
-
- });
-
-
-}
-}
-
-
-			</script>
-
 			<!--pwabuilder-->
 
 			<br>
@@ -296,9 +247,9 @@ async function share(title, text, url) {
 }
 
 </script>
-=======
+<!--=======
 >>>>>>> 8f6a73fb86d38fca95bdad05955a4b87c801b6a5
-
+-->
 
 		</main>
 
@@ -330,7 +281,7 @@ async function share(title, text, url) {
 											<li><a href="https://twitter.com/crasolutions" class="icon" target="_blank"><img src="images/twitter.png"><span class="label">Twitter</span></a></li>
 											<li><a href="https://www.instagram.com/crasolutions/?hl=pt-br" class="icon" target="_blank"><img src="images/instagram.png"><span class="label">Instagram</span></a></li>
 											<li><a href="https://www.facebook.com/ocariocawebdesign/" class="icon" target="_blank"><img src="images/facebook.png"><span class="label">GitHub</span></a></li>
-											<!--<li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+											<li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
 										</ul>-->
 		<ul class="copyright">
 			<li>© Copyright 2019 Carlos Abreu | Criação & Desenvolvimento - O Carioca Web Design.
