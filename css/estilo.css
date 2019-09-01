@@ -4,6 +4,14 @@ body {
   margin: 0;
 }
 
+
+#header{
+
+  margin-top: 10%;
+
+
+}
+
 .h3-titulo {
   color: #333;
   text-transform: uppercase;
