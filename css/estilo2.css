@@ -30,7 +30,7 @@ header {
   grid-row: auto;
 }
 
-#box-conteudo-1 {
+#box-c  onteudo-1 {
   display: grid;
   grid-template-columns: 68%;
   grid-row: auto;
@@ -93,9 +93,14 @@ input[type="placeholder"] {
 /*media queries*/
 
 
-@media (min-width:320px ) and (max-width: 768px){
+@media (min-width:320px ){
 
-
+  header {
+    display: grid !important;
+    grid-template-columns: 100% !important;
+    grid-row: auto;
+    margin-top: 350% !important;
+  }
 
 
 
@@ -120,16 +125,6 @@ input[type="placeholder"] {
 
 /* Dispositivos médios (tablets com 768px ou mais)*/
 @media (min-width: 768px) {
-
-
-  header {
-    display: grid !important;
-    grid-template-columns: 100% !important;
-    grid-row: auto;
-    margin-top: 350% !important;
-  }
-
-
 
 
  }
