@@ -93,7 +93,7 @@ input[type="placeholder"] {
 /*media queries*/
 
 
-@@media (min-width:320px ) and (max-width: 768px){
+@media (min-width:320px ) and (max-width: 768px){
 
 
   header {
@@ -101,8 +101,22 @@ input[type="placeholder"] {
     grid-template-columns: 100% !important;
     grid-row: auto;
     margin-top: 145% !important;
-  }  
+  }
 
 
 
 }
+
+
+
+/*Dispositivos small (telefones em modo paisagem, com 576px ou mais)*/
+@media (min-width: 576px) { ... }
+
+/* Dispositivos médios (tablets com 768px ou mais)*/
+@media (min-width: 768px) { ... }
+
+/* Dispositivos large (desktops com 992px ou mais)*/
+@media (min-width: 992px) { ... }
+
+/* Dispositivos extra large (desktops grandes com 1200px ou mais)*/
+@media (min-width: 1200px) { ... }
