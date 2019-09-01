@@ -1,9 +1,10 @@
 body {
   /*background-image: url(../images/code.jpg);*/
-  background-size: ;
+
   background-color: #dfe4ea !important;
   background-repeat: no-repeat;
-  margin: 0 !important;
+  margin: 0;
+  overflow: scroll;
 }
 
 /*---------------------------------------*/
@@ -11,7 +12,7 @@ header {
   display: grid !important;
   grid-template-columns: 100% !important;
   grid-row: auto;
-  margin-top: 70%!important;
+  margin-top: 20%!important;
 }
 
 /*---------------------------------------*/
@@ -26,6 +27,7 @@ header {
 .conteudo1 {
   display: grid;
   grid-template-columns: 100%;
+  grid-row: auto;
 }
 
 #box-conteudo-1 {
