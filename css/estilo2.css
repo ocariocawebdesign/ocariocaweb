@@ -110,13 +110,16 @@ input[type="placeholder"] {
 
 
 /*Dispositivos small (telefones em modo paisagem, com 576px ou mais)*/
-@media (min-width: 576px) {
+@media (min-width: 320px) {
 
   header {
-    display: grid !important;
-    grid-template-columns: 100% !important;
-    grid-row: auto;
-    margin-top: 350% !important;
+
+    header {
+      display: grid !important;
+      grid-template-columns: 100% !important;
+      grid-row: auto;
+      margin-top: 180% !important;
+
   }
 
 
@@ -126,11 +129,29 @@ input[type="placeholder"] {
 /* Dispositivos médios (tablets com 768px ou mais)*/
 @media (min-width: 768px) {
 
+  header {
+    display: grid !important;
+    grid-template-columns: 100% !important;
+    grid-row: auto;
+    margin-top: 80% !important;
+}
+
 
  }
 
 /* Dispositivos large (desktops com 992px ou mais)*/
-@media (min-width: 992px) { ... }
+@media (min-width: 992px) {
+
+
+  header {
+    display: grid !important;
+    grid-template-columns: 100% !important;
+    grid-row: auto;
+    margin-top: 80% !important;
+  }
+
+
+ }
 
 /* Dispositivos extra large (desktops grandes com 1200px ou mais)*/
 @media (min-width: 1200px) { ... }
