@@ -12,7 +12,7 @@ header {
   display: grid !important;
   grid-template-columns: 100% !important;
   grid-row: auto;
-  margin-top: 20%!important;
+  margin-top: 80% !important;
 }
 
 /*---------------------------------------*/
@@ -121,7 +121,7 @@ input[type="placeholder"] {
 /* Dispositivos médios (tablets com 768px ou mais)*/
 @media (min-width: 768px) {
 
-  
+
   header {
     display: grid !important;
     grid-template-columns: 100% !important;
