@@ -96,12 +96,7 @@ input[type="placeholder"] {
 @media (min-width:320px ) and (max-width: 768px){
 
 
-  header {
-    display: grid !important;
-    grid-template-columns: 100% !important;
-    grid-row: auto;
-    margin-top: 145% !important;
-  }
+
 
 
 
@@ -110,10 +105,34 @@ input[type="placeholder"] {
 
 
 /*Dispositivos small (telefones em modo paisagem, com 576px ou mais)*/
-@media (min-width: 576px) { ... }
+@media (min-width: 576px) {
+
+  header {
+    display: grid !important;
+    grid-template-columns: 100% !important;
+    grid-row: auto;
+    margin-top: 350% !important;
+  }
+
+
+
+ }
 
 /* Dispositivos médios (tablets com 768px ou mais)*/
-@media (min-width: 768px) { ... }
+@media (min-width: 768px) {
+
+  
+  header {
+    display: grid !important;
+    grid-template-columns: 100% !important;
+    grid-row: auto;
+    margin-top: 350% !important;
+  }
+
+
+
+
+ }
 
 /* Dispositivos large (desktops com 992px ou mais)*/
 @media (min-width: 992px) { ... }
