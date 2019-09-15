@@ -102,7 +102,7 @@ input[type="placeholder"] {
       display: grid !important;
       grid-template-columns: 100% !important;
       grid-row: auto;
-      margin-top: 180% !important;
+      margin-top: 0 !important;
 
   }
 
