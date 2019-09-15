@@ -109,18 +109,18 @@ input[type="placeholder"] {
 
 
 
- @media (min-width: 320px) and (max-widht: 360px) {
+ /*@media (min-width: 320px) and (max-widht: 360px) {
 
    header {
 
        display: grid !important;
        grid-template-columns: 100% !important;
-       grid-row: auto;
-       margin-top: 320% !important;
+       grid-template-rows:280px;
+       margin-top:0!important;
 
    }
 
-  }
+  }*/
 
 
 /* Dispositivos médios (tablets com 768px ou mais)*/
