@@ -93,22 +93,6 @@ input[type="placeholder"] {
 /*media queries*/
 
 
-@media (min-width:320px ){
-
-  header {
-    display: grid !important;
-    grid-template-columns: 100% !important;
-    grid-row: auto;
-    margin-top: 350% !important;
-  }
-
-
-
-
-}
-
-
-
 /*Dispositivos small (telefones em modo paisagem, com 576px ou mais)*/
 @media (min-width: 320px) {
 
@@ -122,8 +106,6 @@ input[type="placeholder"] {
 
   }
 
-
-
  }
 
 /* Dispositivos médios (tablets com 768px ou mais)*/
@@ -133,7 +115,7 @@ input[type="placeholder"] {
     display: grid !important;
     grid-template-columns: 100% !important;
     grid-row: auto;
-    margin-top: 80% !important;
+    margin-top: 0 !important;
 }
 
 
