@@ -116,6 +116,30 @@ input[type="placeholder"] {
 
 
 
+ @media (min-width: 360px) {
+
+   header {
+
+       display: grid !important;
+       grid-template-columns: 100% !important;
+       grid-row: auto;
+       margin-top: 0 !important;
+
+   }
+
+
+   .container{
+     margin-top: 880px!important;
+
+
+   }
+
+  }
+
+
+
+
+
  /*@media (min-width: 320px) and (max-widht: 360px) {
 
    header {
