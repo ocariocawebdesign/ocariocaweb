@@ -109,14 +109,14 @@ input[type="placeholder"] {
 
 
 
- @media (min-width: 320px) and (max-height: 740px) {
+ @media (min-width: 320px) and (max-widht: 360px) {
 
    header {
 
        display: grid !important;
        grid-template-columns: 100% !important;
        grid-row: auto;
-       margin-top: 0 !important;
+       margin-top: 320% !important;
 
    }
 
