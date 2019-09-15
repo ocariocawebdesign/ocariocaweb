@@ -98,7 +98,6 @@ input[type="placeholder"] {
 
   header {
 
-    header {
       display: grid !important;
       grid-template-columns: 100% !important;
       grid-row: auto;
@@ -107,6 +106,22 @@ input[type="placeholder"] {
   }
 
  }
+
+
+
+ @media (min-width: 320px) and (max-height: 740px) {
+
+   header {
+
+       display: grid !important;
+       grid-template-columns: 100% !important;
+       grid-row: auto;
+       margin-top: 0 !important;
+
+   }
+
+  }
+
 
 /* Dispositivos médios (tablets com 768px ou mais)*/
 @media (min-width: 768px) {
