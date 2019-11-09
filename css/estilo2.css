@@ -52,8 +52,10 @@ input[type="text"] {
 }
 
 input[type="email"] {
-  border: 1px solid #333 !important;
-  color: #95afc0;
+    border: 1px solid #333 !important;
+    color:#95afc0;
+    width: 50%;
+    margin-bottom: 2%;
 }
 
 input[type="button"] {
