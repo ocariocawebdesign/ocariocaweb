@@ -118,14 +118,14 @@ input[type="placeholder"] {
 
 
 
- @media (min-width: 360px) {
+ @media (min-width: 360px) and (max-width:740px) {
 
    header {
 
        display: grid !important;
        grid-template-columns: 100% !important;
        grid-row: auto;
-       margin-top: 0 !important;
+       margin-top: 25%;
 
    }
 
