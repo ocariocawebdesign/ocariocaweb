@@ -31,8 +31,7 @@
   <meta name="twitter:creator" content="@ocariocawebdesign" />
   <meta property="og:url" content="https://ocariocawebdesign.github.io/ocariocaweb/" />
   <meta property="og:title" content="A Twitter O Carioca Web Design" />
-  <meta property="og:description"
-    content="Página de contato O Carioca Web design, html, css, desenvolvimento de sites." />
+  <meta property="og:description" content="Página de contato O Carioca Web design, html, css, desenvolvimento de sites." />
   <meta property="og:image" content="https://ocariocawebdesign.github.io/ocariocaweb/images/nova-logo-caricatura.png" />
 
 
@@ -41,8 +40,7 @@
 
 
   <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/css/main.css" />
   <link rel="stylesheet" href="css/estilo2.css">
   <link rel="stylesheet" href="assets/css/bootstrap.css" />
@@ -56,9 +54,9 @@
 
   <!--GoogleAnalytics-->
   <script>
-    (function (i, s, o, g, r, a, m) {
+    (function(i, s, o, g, r, a, m) {
       i['GoogleAnalyticsObject'] = r;
-      i[r] = i[r] || function () {
+      i[r] = i[r] || function() {
         (i[r].q = i[r].q || []).push(arguments)
       }, i[r].l = 1 * new Date();
       a = s.createElement(o),
@@ -85,8 +83,7 @@
         </div>
 
         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-          <img class="img-responsive animated fadeInRight" src="images/nova-logo-caricatura.png"
-            alt="O carioca Web Design">
+          <img class="img-responsive animated fadeInRight" src="images/nova-logo-caricatura.png" alt="O carioca Web Design">
         </div>
       </div>
 
@@ -127,113 +124,67 @@
 
       <main>
 
-        <h2>Esse é o conteúdo princial</h2>
-        <p>Mussum Ipsum, cacilds vidis litro abertis. Em pé sem cair, deitado sem dormir, sentado sem cochilar e fazendo
-          pose. Mauris nec dolor in eros commodo tempor.
-          <br> Aenean aliquam molestie leo, vitae iaculis nisl.
-          <br> Si num tem leite então bota uma pinga aí cumpadi! Suco de cevadiss, é um leite divinis, qui tem lupuliz,
-          matis, aguis e fermentis.
+        <style>
+          placehoder {
+            color: #333;
 
-          Viva Forevis aptent taciti sociosqu ad litora torquent. Quem manda na minha terra sou euzis! Sapien in monti
-          palavris qui num significa nadis i pareci latim. Casamentiss faiz malandris se pirulitá. </p>
+          }
+
+          input[type=text] {
+
+            width: 30rem;
+
+          }
+
+          input[type=email] {
+
+            width: 30rem;
+
+          }
+        </style>
 
 
+        <form method="POST" action="processa.php">
+          <label style="color:#333;">Nome:</label>
+          <input type="text" name="nome" placeholder="Digite seu nome completo">
+
+          <label style="color:#333;">email:</label>
+          <input type="email" name="email" placeholder="Digite seu email">
 
 
-        <h2>Olá mundo</h2>
-        <h3>Olá mundo</h3>
-        <h4>Olá mundo</h4>
-        <h5>Olá mundo</h5>
-        <h6>Olá mundo</h6>
+          <input type="submit" name="botao" value="cadastrar">
 
+        </form>
+
+        <h5 style="color:#333;">(11) 97582-9527</h5>
+        <h5 style="color:#333;">ocariocawebdesign@gmail.com</h5><br>
+      </main>
 
     </div>
 
+    <div class="container">
 
-    <h5 style="color:#333;">(11) 97582-9527</h5>
-    <h5 style="color:#333;">ocariocawebdesign@gmail.com</h5><br>
-    </main>
-
-  </div>
-
-  <div class="container">
-
-    <div class="row">
-      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-        <!--Botão facebook-->
-        <a style="text-decoration:none; border:0px;" href="http://m.me/ocariocawebdesign" target="_blank"><img
-            src="images/messenger.png" alt="Botão do messenger" title="Clique aqui" />
-          <h4 style="color:#333;">Mande uma mensagem!</h4>
-        </a>
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <!--Botão facebook-->
+          <a style="text-decoration:none; border:0px;" href="http://m.me/ocariocawebdesign" target="_blank"><img src="images/messenger.png" alt="Botão do messenger" title="Clique aqui" />
+            <h4 style="color:#333;">Mande uma mensagem!</h4>
+          </a>
+        </div>
       </div>
     </div>
-  </div>
 
 
-  <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 
-    <a class="twitter-timeline" data-theme="light" href="https://twitter.com/CarlosA93259670">Tweets by O
-      Carioca</a>
-    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-    <!--<div id="disqus_thread"></div>
-			<script>
-				/**
-				 *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-				 *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-				/*
-				var disqus_config = function () {
-				this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-				this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-				};
-				*/
-				(function() { // DON'T EDIT BELOW THIS LINE
-					var d = document,
-						s = d.createElement('script');
-					s.src = 'https://http-ocariocawebdesign-com-br-blogdocarioca.disqus.com/embed.js';
-					s.setAttribute('data-timestamp', +new Date());
-					(d.head || d.body).appendChild(s);
-				})();
-			</script>
-			<noscript> <a href="https://disqus.com/?ref_noscript">Desenvolvido por Disqus.</a></noscript>
-	
-		</div>
-	
-		<br>
-	
-	
-		</div>
-		<script id="dsq-count-scr" src="//http-www-ocariocawebdesign-com-br.disqus.com/count.js" async></script>-->
-
-  </div>
-
-  <footer id="footer">
-
-    <br>
-    <!--<ul class="icons" >
-			<li style="color:#333;"><a href="hhttps://twitter.com/CarlosA93259670" class="icon" target="_blank"><img
-						src="images/twitter.png"><span class="label">Twitter</span></a></li>
-			<li><a href="https://www.instagram.com/crasolutions/?hl=pt-br" class="icon" target="_blank"><img src="images/instagram.png"><span class="label">Instagram</span></a></li>
-			<li><a href="https://www.facebook.com/ocariocawebdesign/" class="icon" target="_blank"><img
-						src="images/facebook.png"><span class="label">Facebook</span></a></li>
-		<li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
-		</ul>-->
-    <center>
-      <ul class="copyright">
-        <li style="color:#333; font-weight: bolder;">© Copyright 2019 Carlos Abreu | Criação & Desenvolvimento -
-          O Carioca Web Design.
-
-        </li>
-    </center>
-    </ul>
-  </footer>
+      <a class="twitter-timeline" data-theme="light" href="https://twitter.com/CarlosA93259670">Tweets by O
+        Carioca</a>
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
+    </div>
 
 
 </body>
 
 </html>
-
-
-
