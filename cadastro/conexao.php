@@ -1,10 +1,10 @@
 <?php
 
 
-$servidor = "br1014.hostgator.com.br";
-$usuario = "mminfo53_inf";
-$senha = "J@DUMC6[Fo;Z";
-$dbname = "mminfo53_inf";
+$servidor = "";
+$usuario = "";
+$senha = "";
+$dbname = "";
 
 
 //criar conexao
