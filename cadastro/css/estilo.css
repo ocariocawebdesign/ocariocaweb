@@ -1,5 +1,4 @@
-
-html{
+html {
 
   font-family: 'Ubuntu', sans-serif !important;
 
@@ -10,22 +9,22 @@ html{
 body {
 
 
-  background: rgba(236, 233, 224, 0.5) !important;
+  background: rgba(236, 233, 224, 0.2) !important;
   font-family: 'Ubuntu', sans-serif !important;
-  background-image: url(../img/background02.png)!important;
   
+
   background-position: center;
-  background-repeat: no-repeat!important;
-  
+  background-repeat: no-repeat !important;
+
 
 }
 
-p{
+p {
 
-    font-family: 'Ubuntu', sans-serif !important;
-    font-size: 16px!important;
-    font-weight: bold;
-    color:#333!important;
+  font-family: 'Ubuntu', sans-serif !important;
+  font-size: 16px !important;
+  font-weight: bold;
+  color: #333 !important;
 
 }
 
@@ -35,6 +34,12 @@ p{
 
   text-transform: uppercase;
 
+
+}
+
+.opacidade {
+
+  opacity: 0.5 !important;
 
 }
 
@@ -56,7 +61,6 @@ article p {
 
 
   font-size: 14px;
-
 
 
 }
