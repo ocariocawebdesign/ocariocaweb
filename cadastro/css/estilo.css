@@ -1,16 +1,10 @@
-html {
-
-  font-family: 'Ubuntu', sans-serif !important;
-
-
-}
 
 
 body {
 
 
   /*background: rgba(236, 233, 224, 0.2) !important;*/
-  font-family: 'Ubuntu', sans-serif !important;
+
   background-image: url(../img/background01.jpg);
   background-position: center;
   background-repeat: no-repeat !important;
@@ -18,9 +12,16 @@ body {
 
 }
 
+h1,
+h2,
+h3,
+h4{
+  font-family: 'Open Sans', sans-serif;
+}
+
 p {
 
-  font-family: 'Ubuntu', sans-serif !important;
+  /*font-family: 'Open Sans', sans-serif;*/
   font-size: 16px !important;
   font-weight: bold;
   color: #333 !important;
