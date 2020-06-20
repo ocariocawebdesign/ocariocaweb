@@ -15,7 +15,7 @@ body {
   /*background-image: url(../images/code.jpg);*/
   /*background-color: #dfe4ea !important;*/
   /*background-image: linear-gradient(to right top, #440055, #603676, #7e6297, #9f8eb6, #c3bcd4, #d5d1e1, #e8e6ee, #fbfbfb, #fcfcfc, #fdfdfd, #fefefe, #ffffff);*/
-  background: #121924;
+  background:#121924;
   /* Initial background */
   transition: background 8s;
   /* .5s how long transitions shoould take */
@@ -30,16 +30,20 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
 }
 
-.p-conteudo-1 {
+.p-conteudo-1{
   font-size: 16px;
   font-weight: bold;
   font-family: 'Ubuntu', sans-serif;
-  color: #FAFAFA;
+  color:#FAFAFA;
+
 }
 
-figure.image-center {
-  margin: 0 25% 0 25%!important
+
+figure.image-center{
+
+  margin:0 25% 0 25%!important
 }
+
 
 /*---------------------------------------*/
 
@@ -132,7 +136,7 @@ figure.central:hover {
   line-height: 12px;
   letter-spacing: 2px;
   margin-top: 2rem;
-  color: #FAFAFA;
+  color:#FAFAFA;
 }
 
 .container-social {
@@ -180,7 +184,7 @@ ul.icons {
   display: grid;
   grid-template-columns: 68%;
   grid-row: auto;
-  color: #FAFAFA;
+  color:#FAFAFA;
 }
 
 #box-conteudo-certificados {
@@ -234,13 +238,6 @@ h3 {
   font-size: 42px !important;
 }
 
-.h1-header {
-  font-size: 36px!important;
-  color: rgba(255, 255, 255, .3);
-  
-  text-shadow: 0 0 15px rgba(255, 255, 255, .5), 0 0 10px rgba(255, 255, 255, .5);
-}
-
 input[type="text"] {
   border: 1px solid #333 !important;
   color: #95afc0;
@@ -281,7 +278,7 @@ input[type="placeholder"] {
 .button-job {
   /*background-color: #9d5aad !important;*/
   background-color: transparent!important;
-  color: #b6b2b2;
+  color:#b6b2b2;
   padding: 5px 8px 8px 10px!important;
   font-size: 18px!important;
   font-weight: bold;
@@ -319,7 +316,7 @@ i.phone-contato {
   font-weight: bold;
   display: flex;
   margin-left: 0.5rem;
-  color: #b6b2b2;
+  color:#b6b2b2;
 }
 
 .fonte-zero {
@@ -327,18 +324,12 @@ i.phone-contato {
   text-decoration: none!important;
 }
 
-footer {
+
+footer{
   padding: 4rem;
 }
-
 footer, #footer p:hover {
   opacity: 0.8;
-}
-
-.text-footer {
-  font-size: 14px;
-  font-weight: bold;
-  color: #FAFAFA;
 }
 
 /*media queries*/
