@@ -116,9 +116,13 @@ header {
 }
 
 .box-intro-01 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   /*border: 3px solid #cad9e2;*/
-  padding: 0.2rem;
+  
   border-radius: 8px;
 }
 

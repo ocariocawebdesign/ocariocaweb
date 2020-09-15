@@ -18,6 +18,13 @@ fetch(`${URL}`)
     //console.log(data);
     console.log(data);
 
+    /*const dadosPost = new Object();
+
+    dadosPost[tituloPost] = data[0].title;
+    dadosPost[conteudoPost] = data[0].content.rendered;
+    dadosPost[dataPost] = data[0].date;
+    dadosPost[autorPost] = data[0].author_info.display_name;*/
+
     //Pegando os dados do objeto
     const dadosPost = {
       title: data[0].title,
