@@ -1,11 +1,5 @@
 <!DOCTYPE HTML>
-<!--
 
- Site: Carlos carlos Abreu
- ocariocawebdesign
-
-
--->
 <html lang="pt-br">
 
 <head>
@@ -44,9 +38,8 @@
 	<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
 		integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-	<!--<link rel="stylesheet" href="assets/css/main.css" />-->
 	<link rel="stylesheet" href="assets/css/bootstrap.css" />
-	<!--<link rel="stylesheet" href="css/animate.css">-->
+	<link rel="stylesheet" href="node_modules/lightbox2/src/css/lightbox.css">
 	<link rel="stylesheet" href="css/estilo.css">
 
 	<!--Google fonts-->
@@ -56,7 +49,6 @@
 
 	<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 	<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-
 
 
 </head>
@@ -87,7 +79,7 @@
 		<!--GoogleAnalytics-->
 
 		<!-- Header -->
-		<header id="header" style="margin-top:5%;">
+		<header id="header-top">
 
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
@@ -99,55 +91,23 @@
 					<h1 class="text-left h1-header">Desenvolvimento de websites</h1>
 
 					<img class="img-responsive" src="images/ocarioca-ilustracao-2.png" alt="O carioca Web Design">
-
-				
-
 				</div>
 			</div>
 
 		</header>
-
-
-		<nav>
-			<div class="row">
-				<div id="" style="margin-bottom:2%;" class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-					<i class="gg-stack"></i>
-
-					<a href=""><button type="button" class="button-job btn-lg">Trabalhos</button></a>
-					<br>
-				</div>
-
-				<div id="" style="margin-bottom:2%;" class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-					<i class="gg-browser"></i>
-
-					<a href=""><button type="button" class="button-job btn-lg">Wordpress CMS</button></a>
-					<br>
-				</div>
-
-				<div id="" class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-					<i class="gg-terminal"></i>
-
-					<a href=""><button type="button" class="button-job btn-lg">HTML CSS JAVASCRIPT</button></a>
-					<br>
-				</div>
-
-			</div>
-
-		</nav>
 
 		<section id="intro" class="container">
 
 			<div class="box-container-intro">
 
 				<div class="box-intro-01">
-
 					<h4 class="text-center">Carlos Abreu <small>O Carioca Webdesign</small></h4>
 					<figure>
 						<img class="" src="images/ocarioca-rounded.png" alt="">
 
 					</figure>
 
-					<p class="text-justify p-sobre">
+					<p class="text-letf p-sobre">
 						Sou desenvolvedor front-end freelancer sempre em busca de novos desafios. Uma das minhas paixões
 						e motivo de orgulho é ser usuário do Ubuntu Linux onde busco realizar todos os processos do meu
 						trabalho usando software livre.
@@ -155,34 +115,13 @@
 					</p>
 
 					<div class="container-social">
-
-
 					</div>
 				</div>
 
 				<div class="box-intro-02">
-
-
-					<figure>
-
-					</figure>
-
-					<p class="text-justify p-sobre">
-
-					</p>
-
-
 				</div>
 
 				<div class="box-intro-03">
-
-
-					<figure>
-
-					</figure>
-
-					<p class="text-justify p-sobre"></p>
-
 				</div>
 
 			</div>
@@ -252,7 +191,57 @@
 		</main>
 	</div>
 
+<section id="portfolio" class="container">
+	<h2>Portfólio</h2>
+	<br>
+	<nav>
+		<div class="row">
+			<div id="trabalhos" class="col-xs-12 col-sm-12 col-md-4 col-lg-4 box-trabalhos">
+				<!--<i class="gg-stack"></i>-->
 
+			<!--	<a href=""><button type="button" class="button-job btn-lg">Trabalhos</button></a>-->
+				<div class="centralizar-img">
+					<img class="img-thumbnail" src="images/projetoParaSite03.png" alt="">
+				</div>
+				<br>
+			</div>
+
+			<div id="wordpress" class="col-xs-12 col-sm-12 col-md-4 col-lg-4 box-trabalhos">
+				<!--<i class="gg-browser"></i>-->
+
+				<!--<a href=""><button type="button" class="button-job btn-lg">Wordpress CMS</button></a>-->
+				<div class="centralizar-img">
+					<img class="img-thumbnail" src="images/projetoParaSite02.png" alt="">
+				</div>
+				<br>
+			</div>
+
+			<div id="htmlCssJs" class="col-xs-12 col-sm-12 col-md-4 col-lg-4 box-trabalhos">
+				<!--<i class="gg-terminal"></i>-->
+				<!--<a class="text-center" href=""><button type="button" class="button-job btn-lg text-center">HTML CSS JAVASCRIPT</button></a>-->
+
+				<div class="centralizar-img">
+					<img class="img-thumbnail" src="images/projetosParaSite01.png" alt="">
+				</div>
+				<br>
+			</div>
+
+		</div>
+
+	</nav>
+</section>
+
+
+<section id="blog" class="container">
+
+	<div class="row" style="display: none;">
+		<div id="posts-index" class="col-xs-12 col-sm-12 col-md-4 col-lg-4 box-trabalhos">
+
+			<div class="posts"></div>
+
+		</div>
+
+</section>
 
 	<div class="container">
 		<h4>Certificados</h4>
@@ -261,7 +250,12 @@
 			<div class="box-01">
 				<p class=""></p>
 				<figure class="image-center">
-					<img class="img-thumbnail" src="images/front-end.png" alt="">
+
+					<a href="images/front-end.png" data-lightbox="roadtrip"><img class="img-thumbnail img-certificado"
+							src="images/front-end.png" alt=""></a>
+
+					<!--<a href="images/front-end.png" data-lightbox="image-1" data-title="">Image 1</a>-->
+					<!--<img class="img-thumbnail img-certificado" src="images/front-end.png" alt="">-->
 				</figure>
 			</div>
 
@@ -269,7 +263,10 @@
 				<p class=""></p>
 
 				<figure class="image-center">
-					<img class="img-thumbnail" src="images/logica.png" alt="">
+
+					<a href="images/logica.png" data-lightbox="image-1" data-title=""><img
+							class="img-thumbnail img-certificado" src="images/logica.png" alt=""></a>
+					<!--<img class="img-thumbnail img-certificado" src="images/logica.png" alt="">-->
 				</figure>
 
 
@@ -278,7 +275,7 @@
 
 	</div>
 
-	<section id="wp-posts" style="display: none;">
+	<section id="wp-posts" style="display:none;">
 		<div class="container">
 
 			<div class="row">
@@ -301,15 +298,15 @@
 
 	<footer id="footer">
 
-		<p class="copyright text-center text-footer">© Copyright 2019 Carlos Abreu | Criação & Desenvolvimento -
+		<p class="copyright text-center text-footer">Carlos Abreu | Criação & Desenvolvimento -
 			O Carioca Web Design.</p>
 
 	</footer>
 
-
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/js/lightbox-plus-jquery.js"></script>
+	<script src="node_modules/lightbox2/src/js/lightbox.js"></script>
 	<script src="js/index.js"></script>
-	<script src="modules/Http.js"></script>
-	<script src="js/get-post.js"></script>
+	
 
 	<!-- GetButton.io widget -->
 	<script type="text/javascript">
